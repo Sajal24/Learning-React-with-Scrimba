@@ -1,0 +1,1 @@
+Starting with section1, learning and eventually building a static info site with react

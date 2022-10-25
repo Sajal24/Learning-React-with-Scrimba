@@ -1,1 +1,5 @@
 Starting with section1, learning and eventually building a static info site with react
+
+JSX returns plain JS objects
+So the job of the React is to take the JSX elements and turn them into Real DOM elements such that browser can interpret it easily.
+- if you normally try to write JSX and append it to the root element (good ol days), then it will give a string, then you stringify it and get the JS object, but not the real dom object as expected-react will do that for us

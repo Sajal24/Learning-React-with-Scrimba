@@ -1,5 +1,11 @@
 Starting with section1, learning and eventually building a static info site with react
 
+JSX should always be wrapped in one element!
+
 JSX returns plain JS objects
 So the job of the React is to take the JSX elements and turn them into Real DOM elements such that browser can interpret it easily.
 - if you normally try to write JSX and append it to the root element (good ol days), then it will give a string, then you stringify it and get the JS object, but not the real dom object as expected-react will do that for us
+
+Need to keep these 2 things in mind while working with functions as React components:
+1. we need to use Pascal case instead of camelCase for our component names
+2. instead of using the function(), we use angle brackets here -> <Function />

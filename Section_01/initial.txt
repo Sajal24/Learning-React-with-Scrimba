@@ -8,4 +8,16 @@ So the job of the React is to take the JSX elements and turn them into Real DOM 
 
 Need to keep these 2 things in mind while working with functions as React components:
 1. we need to use Pascal case instead of camelCase for our component names
-2. instead of using the function(), we use angle brackets here -> <Function />
+2. instead of using the function(), we use angle brackets here - <Function />
+
+React components? 
+funtion that returns react elements
+
+React Elements?
+RE are the objects that get returned with JSX [JSX is a syntax for react which returns js objects under the hood which react turns into real dom elements that we can render on the screen]
+
+Call your component === Create an instance of your component
+
+
+PARENT CHILD COMPONENTS
+

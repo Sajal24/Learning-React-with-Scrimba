@@ -1,3 +1,3 @@
-import react from "/react-modules";
+import React from "/react-modules";
 
 console.log("g");

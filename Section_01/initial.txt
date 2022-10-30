@@ -21,3 +21,4 @@ Call your component === Create an instance of your component
 
 PARENT CHILD COMPONENTS
 
+//saving my ass and those green squares, sorry :(

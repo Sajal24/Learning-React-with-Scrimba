@@ -11,7 +11,7 @@ Need to keep these 2 things in mind while working with functions as React compon
 2. instead of using the function(), we use angle brackets here - <Function />
 
 React components? 
-funtion that returns react elements
+function that returns react elements
 
 React Elements?
 RE are the objects that get returned with JSX [JSX is a syntax for react which returns js objects under the hood which react turns into real dom elements that we can render on the screen]
@@ -20,5 +20,21 @@ Call your component === Create an instance of your component
 
 
 PARENT CHILD COMPONENTS
+in this, it is explained that a <div> </div> cam have child components like
+<Header />
+<MainContent />
+<Footer />
 
-//saving my ass and those green squares, sorry :(
+STYLING WITH CSS
+just styling in css file and linking that css file with the keyword import
+
+ORGANISING COMPONENTS
+Moving the separate react components to their respective files and then using the 'export-import' statements
+
+RUN LOCALLY WITH REACT
+we setup a project using Vite here, just three cmds:
+npm create vite@latest
+npm install
+npm run dev
+
+
